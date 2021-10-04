@@ -1,0 +1,66 @@
+@font-face {
+font-family: 'Nunitoregular';
+src: url('../fonts/nunito/Nunitoregular.ttf'),
+url('../fonts/nunito/Nunitoregular.woff') format('woff'),
+url('../fonts/nunito/Nunitoregular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'OpenSans';
+src: url('../fonts/OpenSans/OpenSans.ttf'),
+url('../fonts/OpenSans/OpenSans.woff') format('woff'),
+url('../fonts/OpenSans/OpenSans.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'OpenSansSemiBold';
+src: url('../fonts/OpenSans/OpenSansSemiBold.ttf'),
+url('../fonts/OpenSans/OpenSansSemiBold.woff') format('woff'),
+url('../fonts/OpenSans/OpenSansSemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'opensanslight';
+src: url('../fonts/OpenSans/opensanslight.ttf'),
+url('../fonts/OpenSans/opensanslight.woff') format('woff'),
+url('../fonts/OpenSans/opensanslight.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'montserrat';
+src: url('../fonts/montserrat/montserrat.ttf'),
+url('../fonts/montserrat/montserrat.woff') format('woff'),
+url('../fonts/montserrat/montserrat.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MullerBold';
+src: url('../fonts/MullerBold.ttf'),
+ url('../fonts/MullerBold.woff') format('woff'),
+url('../fonts/MullerBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+ @font-face {
+font-family: 'MullerRegular';
+src: url('../fonts/MullerRegular.ttf'),
+url('../fonts/MullerRegular.woff') format('woff'),
+url('../fonts/MullerRegular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'MullerMedium';
+src: url('../fonts/MullerMedium.ttf'),
+url('../fonts/MullerMedium.woff') format('woff'),
+url('../fonts/MullerMedium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+        
+    

@@ -101,6 +101,7 @@ header {
     font-size: 14px;
     border-radius: 11px;
     padding-left: 20px;
+    outline: none;
 }
 .header__button {
     border: none;

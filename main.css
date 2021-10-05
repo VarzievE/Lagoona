@@ -20,7 +20,7 @@ header {
     margin-top: 30px;
 }
 .container {
-    width: 80%;
+    width: 1170px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -125,6 +125,9 @@ header {
     margin-top: 70px;
 }
 .reserv__fast {
+    width: 50%;
+}
+.reserv__special {
     width: 50%;
 }
 
@@ -268,5 +271,46 @@ header {
     margin-left: 45px;
     line-height: 30px;
     width: 185px;
+}
+.hotels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotels__hotel {
+    height: 440px;
+    width: 370px;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+.hotels__hotel--1 {
+    background-image: url('images/hotel1.jpg');
+
+}
+.hotels__hotel--2 {
+    background-image: url('images/hotel2.jpg');
+}
+.hotels__hotel--3 {
+    background-image: url('images/hotel3.jpg');
+}
+.hotels__hotel--4 {
+    background-image: url('images/hotel4.jpg');
+}
+.hotels__hotel--5 {
+    background-image: url('images/hotel5.jpg');
+}
+.hotels__hotel--6 {
+    background-image: url('images/hotel6.jpg');
+}
+.hotels__hotel--7 {
+    background-image: url('images/hotel7.jpg');
+}
+.hotels__hotel--8 {
+    background-image: url('images/hotel8.jpg');
+}
+.hotels__hotel--all {
+    background-image: url('images/hotel9.jpg');
 }
 

@@ -229,35 +229,35 @@ header {
     background-position-y: 50px;
     background-position-x: 50px;
 }
-.benefits__elem--bathhub {
+.benefits__elem-bathhub {
     background-image: url('images/elem1.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--hanger {
+.benefits__elem-hanger {
     background-image: url('images/elem2.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--heating {
+.benefits__elem-heating {
     background-image: url('images/elem3.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--hotelkey {
+.benefits__elem-hotelkey {
     background-image: url('images/elem4.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--parking {
+.benefits__elem-parking {
     background-image: url('images/elem5.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--reception {
+.benefits__elem-reception {
     background-image: url('images/elem6.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--securbox {
+.benefits__elem-securbox {
     background-image: url('images/elem7.png');
     background-repeat: no-repeat;
 }
-.benefits__elem--swimpool {
+.benefits__elem-swimpool {
     background-image: url('images/elem8.png');
     background-repeat: no-repeat;
 }
@@ -285,32 +285,39 @@ header {
     margin-bottom: 25px;
     border-radius: 20px;
 }
-.hotels__hotel--1 {
-    background-image: url('images/hotel1.jpg');
-
+.hotels__price {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-left: 45px;
+    margin-top: 35px;
+    line-height: 25px;
 }
-.hotels__hotel--2 {
-    background-image: url('images/hotel2.jpg');
+.hotels__p-price {
+    font-family: 'MullerRegular';
+    font-size: 16px;
 }
-.hotels__hotel--3 {
-    background-image: url('images/hotel3.jpg');
+.hotels__span-price {
+    font-family:'MullerBold';
+    font-size: 22px;
 }
-.hotels__hotel--4 {
-    background-image: url('images/hotel4.jpg');
+.hotels__barselona {
+    font-family: 'MullerRegular';
+    color: #a9a9a9;
 }
-.hotels__hotel--5 {
-    background-image: url('images/hotel5.jpg');
+.hotels__stars {
+    margin-left: 35px;
 }
-.hotels__hotel--6 {
-    background-image: url('images/hotel6.jpg');
-}
-.hotels__hotel--7 {
-    background-image: url('images/hotel7.jpg');
-}
-.hotels__hotel--8 {
-    background-image: url('images/hotel8.jpg');
-}
-.hotels__hotel--all {
-    background-image: url('images/hotel9.jpg');
+.hotels__button {
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #cc9933;
+    background-color: #ffffff;
+    color: #cc9933;
+    font-family: 'MullerBold';
+    font-size: 16px;
+    margin-top: 20px;
 }
 

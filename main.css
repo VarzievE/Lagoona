@@ -42,6 +42,9 @@ header {
     margin: 15px 33px;
     text-decoration: none;
 }
+.header__phone:hover {
+    color: #cc9933;
+}
 .header__link {
     list-style-type: none;
     font-family: 'MullerBold';
@@ -276,6 +279,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 70px;
 }
 .hotels__hotel {
     height: 440px;

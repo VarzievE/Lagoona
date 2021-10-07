@@ -284,14 +284,13 @@ header {
     background-color: #ffffff;
     margin-bottom: 25px;
     border-radius: 20px;
+    line-height: 25px;
 }
 .hotels__price {
     display: flex;
     align-items: baseline;
-    flex-wrap: wrap;
     margin-left: 45px;
     margin-top: 35px;
-    line-height: 25px;
 }
 .hotels__p-price {
     font-family: 'MullerRegular';
@@ -301,9 +300,15 @@ header {
     font-family:'MullerBold';
     font-size: 22px;
 }
+.hotels__city {
+    font-family: 'MullerRegular';
+    font-size: 16px;
+    margin-left: 45px;
+}
 .hotels__barselona {
     font-family: 'MullerRegular';
     color: #a9a9a9;
+    display: block;
 }
 .hotels__stars {
     margin-left: 35px;
@@ -319,5 +324,28 @@ header {
     font-family: 'MullerBold';
     font-size: 16px;
     margin-top: 20px;
+}
+.hotels__button:hover{
+    background-color: #cc9933;
+    color: #ffffff;
+}
+.hotels__hotel-all {
+    background-image:url('images/hotel9.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.hotels__hotel-all a {
+    font-family: 'MullerMedium';
+    font-size: 22px;
+    text-decoration: none;
+    color: #f1f1f1;
+    margin-bottom: 50px;
+}
+.fa-hotels__hotel {
+    color: #f1f1f1;
+    margin-left: 10px;
 }
 

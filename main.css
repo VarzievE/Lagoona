@@ -47,14 +47,9 @@ header {
 }
 .header__link {
     list-style-type: none;
-    font-family: 'MullerBold';
-    
-}
-.header__link a {
     font-family: 'MullerRegular';
-    color:#ce9f40;
     text-decoration: none;
-
+    color: #cc9933;
 }
 .header__menu {
     height: 70px;

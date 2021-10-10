@@ -128,7 +128,6 @@ header {
 .reserv__special {
     width: 50%;
 }
-
 .reserv__search {
     font-family: 'MullerRegular';
     font-size: 16px;
@@ -152,8 +151,7 @@ header {
     font-size: 16px;
 }
 .reserv__aboutus {
-    margin-top: 70px;
-    
+    margin-top: 70px;   
 }
 .reserv__p {
     font-family: 'MullerRegular';
@@ -433,5 +431,41 @@ address {
     font-family: 'MullerBold';
     font-size: 16px;
 }
+.footer__block {
+    display: flex;
+    background-image: url(images/footer.jpg);
+    background-repeat: no-repeat;
+    height: 340px;
+    justify-content: space-between;
+    padding: 44px 51px 55px 52px;    
+    margin-top: 20px;
+}
+.footer__item {
+    width: 365px;
+}
+.footer__p {
+    font-family: 'MullerMedium';
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.footer__a , .footer__mail {
+    text-decoration: none;
+    color: #cc9933;
+    font-family: 'MullerRegular';
+    font-size: 16px;
+}
+.footer__text {
+    line-height: 25px;
+}
+.footer__social {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.footer__mail-block {
+    margin-top: 50px;
+}
+
 
 

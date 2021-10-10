@@ -14,7 +14,7 @@ h1 {
 }
 body {
     background-color:#f1f1f1;
-    width: 1920px;
+    width: 100%;
 }
 header {
     margin-top: 30px;
@@ -49,6 +49,9 @@ header {
     list-style-type: none;
     font-family: 'MullerRegular';
     text-decoration: none;
+    color: #cc9933;
+}
+.header__link:hover{
     color: #cc9933;
 }
 .header__menu {
@@ -362,6 +365,9 @@ header {
     width: 385px;
     justify-content: space-between;
     align-items: center;
+    
+}
+.contact__block:not(:last-child){
     border-bottom: 1px solid #cccccc;
 }
 .contact__p {
@@ -396,6 +402,10 @@ address {
     color: #cc9933;
     font-family: 'MullerBold';
     font-size: 16px;
+}
+.contact__button:hover {
+    background-color: #cc9933;
+    color: #ffffff;
 }
 .contact__us {
     margin: auto;
@@ -438,7 +448,8 @@ address {
     height: 340px;
     justify-content: space-between;
     padding: 44px 51px 55px 52px;    
-    margin-top: 20px;
+    margin: 20px 0 50px 0;
+    border-radius: 15px;
 }
 .footer__item {
     width: 365px;

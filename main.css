@@ -20,7 +20,7 @@ header {
     margin-top: 30px;
 }
 .container {
-    width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .header__elem {
@@ -516,6 +516,25 @@ address {
 .footer__mail-block {
     margin-top: 50px;
 }
+@media (max-width:1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width:992px) {
+    .container {
+        max-width: 750px;
+    }
+    .contact__us {
+        margin: 0;
+    }
+}
+@media (max-width:767px) {
+    .container {
+        max-width: none;
+    }
+}
+
 
 
 

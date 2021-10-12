@@ -22,7 +22,6 @@ header {
 .container {
     width: 1170px;
     margin: 0 auto;
-    max-width: 100%;
 }
 .header__elem {
     display: flex;

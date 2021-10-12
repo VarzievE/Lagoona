@@ -51,7 +51,7 @@ header {
     color: #cc9933;
 }
 .header__link:hover{
-    color: #cc9933;
+    color: #333333;
 }
 .header__menu {
     height: 70px;

@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-h1 {
+h3 {
     width: 100%;
     font-family: 'MullerRegular';
     font-size: 40px;
@@ -107,7 +107,7 @@ header {
     cursor: pointer;
     font-size: 32px;
 }
-.reserv__h1 {
+.reserv__h3 {
     font-family: 'MullerRegular';
     font-size: 40px;
     color: #333333;
@@ -132,6 +132,40 @@ header {
 }
 .reserv__special {
     width: 50%;
+}
+.reserv__img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url('images/img.jpg');
+    background-repeat: no-repeat;
+    height: 93%;
+    border-radius: 20px;  
+}
+.reserv__img-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 315px;
+    margin: 0 0 40px 40px;
+}
+.reserv__img-text a {
+    text-decoration: none;
+    color: #ce9f40;
+    font-family: 'MullerRegular';
+    font-size: 16px;
+}
+.reserv__img h4 {
+    font-family: 'MullerBold';
+    font-size: 66px;
+    color: #f1f1f1;
+}
+.reserv__img span {
+    font-family: 'MullerRegular';
+    font-size: 35px;
+    color: #c6c6c6;
+    display: block;
 }
 .reserv__search {
     font-family: 'MullerRegular';
@@ -171,7 +205,7 @@ header {
     justify-content: space-between;
     margin-top: 60px;
 }
-.services__h1{
+.services__h3 {
     width: 100%;
     font-family: 'MullerRegular';
     font-size: 40px;

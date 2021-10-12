@@ -50,6 +50,9 @@ header {
     text-decoration: none;
     color: #cc9933;
 }
+.header__menu .header__link:hover {
+    color: #cc9933;
+}
 .header__link:hover{
     color: #333333;
 }

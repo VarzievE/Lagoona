@@ -1,3 +1,8 @@
+
+
+html {
+    overflow-x: hidden;
+}
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +18,10 @@ h3 {
     margin-left: 40px;
 }
 body {
-    background-color:#f1f1f1;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    width: 90%;
+    margin: 0 auto;
 }
 header {
     margin-top: 30px;
@@ -57,7 +65,7 @@ header {
     color: #333333;
 }
 .header__menu {
-    height: 70px;
+    min-height: 70px;
     margin-top: 30px;
     display: flex;
     background-color: #ffffff;
@@ -68,7 +76,6 @@ header {
 }
 .header__list  {
     display: flex;
-    align-items: center;
     margin-left: 23px;
     flex-wrap: wrap;
 }
@@ -537,8 +544,57 @@ address {
 .footer__mail-block {
     margin-top: 50px;
 }
+@media (max-width:450px) {
+    h3  {
+        margin-left:0;
+        margin-top: 10px;
+    }
+    .reserv__p {
+        margin: 0%;
+    }
+    .reserv__img-text {
+        margin-left: 0;
+    }
+    .services__exclus p, .services__exclus a {
+        margin-left: 5px;
+    }
+}
+@media (max-width:700px) {
+    .footer__block {
+        flex-direction: column;
+    }
+    .footer__img {
+        display: flex;
 
-
+    }
+    .footer__img a {
+        margin-right: 50px;
+    }
+    .footer__p {
+        margin-bottom: 20px;
+    }
+    .footer__mail-block {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:1003px) {
+    .contact__us {
+        margin: 0;
+    }
+    .contact__us h3 {
+        margin-top: 25px;
+    }
+}
+@media (max-width:750px) {
+    .header__list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header__item {
+        margin-bottom: 15px;
+    }
+}
 
 
 

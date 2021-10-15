@@ -514,7 +514,6 @@ address {
     margin: 20px 0 50px 0;
     border-radius: 15px;
     background-size: cover;
-    flex-wrap: wrap;
 }
 .footer__item {
         /* width: 365px; */
@@ -568,7 +567,7 @@ address {
 
     }
     .footer__img a {
-        margin-right: 50px;
+        margin-right: 20px;
     }
     .footer__p {
         margin-bottom: 20px;
